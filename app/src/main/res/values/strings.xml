@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ebrahimi_Project</string>
+    <array name="arrayProvinces">
+        <item>آذربایجان شرقی</item>
+        <item>فارس</item>
+        <item>تهران</item>
+        <item>گیلان</item>
+        <item>اصفهان</item>
+        <item>زنجان</item>
+    </array>
+    <array name="arrayEastAzarbaijan">
+        <item>تبریز</item>
+        <item>مرند</item>
+        <item>مراغه</item>
+    </array>
+    <array name="arrayFars">
+        <item>شیراز</item>
+        <item>مرودشت</item>
+        <item>جهرم</item>
+    </array>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ir.eatc.ebrahimi_project.MainActivity">
+
+
+    <TextView
+        android:text="استان مورد نظر را انتخاب نمائید"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="right"
+        android:layout_marginTop="50dp"
+        />
+<Spinner
+    android:id="@+id/spProvince"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="80dp"
+    android:layout_gravity="right"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btnGoToCity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="انتخاب شهر"/>
+    <TextView
+        android:id="@+id/selectedCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="120dp"
+        android:text="Developed By: Ebrahimi In EATC 2019" />
+</LinearLayout>
